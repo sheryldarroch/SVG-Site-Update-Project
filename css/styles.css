@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('../svgs/background.svg') #f0f0f0;
+}
+
+#container {
+  max-width: 960px;
+  background: #fefbfb;
+  margin: 0 auto;
+}
+
+svg {
+  overflow: visible;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #a6c7f4;
+  font-weight: 700;
+
+  }
+
+a:hover {
+  color: #629cec;
+  }
+
+a:hover .heart .st0,
+a:hover .location .st0,
+a:hover .contact .st0 {
+    fill: #629cec;
+    transform: scale(1.1) translateX(10px);
+    transition: transform 1s ease-in-out;
+  }
+
+.header {
+  padding-top: 10px;
+  margin: 0;
+}
+
+.nav {
+    text-align: left;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 32px;
+    line-height: 1.5em;
+}
+
+.heart,
+.location,
+.contact {
+  height: 13px;
+}
+
+.heart .st0,
+.location .st0,
+.contact .st0 {
+  fill: #39add1;
+}
+
+.logo {
+  height: 120px;
+  width: 140px;
+}
+
+.st1 {
+  opacity: 0;
+}
+
+.logo-text {
+  line-height: 1em;
+  color: #EAAA7F;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.main {
+  padding-top: 32px;
+}
+
+.main-headline {
+  font-size: 28px;
+}
+
+.main-list {
+    padding: 0;
+  }
+
+.main-item {
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+
+.main-name {
+        margin-left: -40px;
+      }
+
+.main-item:last-child {
+        margin-right: 0;
+      }
+
+.corgi-red,
+.corgi-fawn,
+.corgi-sable,
+.corgi-blacktan {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px;
+}
+
+.corgi-red .cr0 {
+  fill: #DE5151;
+}
+
+.corgi-fawn .cf0 {
+  fill: #EED794;
+}
+
+.corgi-fawn .cf3 {
+  fill: #E0A15F;
+}
+
+.corgi-sable .cs0 {
+  fill: #926C44;
+}
+
+.corgi-blacktan .cbt1 {
+  fill: #CBAB7D;
+}
+
+.corgi-blacktan .cbt0 {
+  fill: #111;
+}
+
+.corgi-red:hover,
+.corgi-fawn:hover,
+.corgi-sable:hover,
+.corgi-blacktan:hover {
+  transform: rotate(5deg); 
+}
+
+.footer {
+  width: 100%;
+  margin-top: 32px;
+  padding-bottom: 32px;
+  color: #ba8058;
+}
+
+@media screen and (min-width: 768px) {
+
+  .logo-text {
+    display: none;
+  }
+  
+  .logo {
+  height: 180px;
+  width: 210px;    
+  }
+
+  .st1 {
+    opacity: 1;
+  }
+}
